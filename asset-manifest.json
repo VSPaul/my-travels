@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/my-travels/static/css/main.0c47a8f2.chunk.css",
+    "main.js": "/my-travels/static/js/main.58f8df2d.chunk.js",
+    "main.js.map": "/my-travels/static/js/main.58f8df2d.chunk.js.map",
+    "runtime-main.js": "/my-travels/static/js/runtime-main.79b16804.js",
+    "runtime-main.js.map": "/my-travels/static/js/runtime-main.79b16804.js.map",
+    "static/js/2.494abc18.chunk.js": "/my-travels/static/js/2.494abc18.chunk.js",
+    "static/js/2.494abc18.chunk.js.map": "/my-travels/static/js/2.494abc18.chunk.js.map",
+    "index.html": "/my-travels/index.html",
+    "precache-manifest.cfca5ce47a593f1404c147a817496043.js": "/my-travels/precache-manifest.cfca5ce47a593f1404c147a817496043.js",
+    "service-worker.js": "/my-travels/service-worker.js",
+    "static/css/main.0c47a8f2.chunk.css.map": "/my-travels/static/css/main.0c47a8f2.chunk.css.map",
+    "static/media/cocktail-svgrepo-com.svg": "/my-travels/static/media/cocktail-svgrepo-com.5f066de4.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.79b16804.js",
+    "static/js/2.494abc18.chunk.js",
+    "static/css/main.0c47a8f2.chunk.css",
+    "static/js/main.58f8df2d.chunk.js"
+  ]
+}
