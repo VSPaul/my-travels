@@ -44,14 +44,21 @@ const travels = [
     photo:"https://www.princesstravel.ro/wp-content/uploads/2019/05/venetia-960x546.jpeg",
     destination:'Venice',
     country:'Italy',
+    distance:'1.541 Km'
+  },
+
+  {
+    photo:"https://media.timeout.com/images/105186767/image.jpg",
+    destination:'Milano',
+    country:'Italy',
     distance:'1.793 Km'
   }
   
 ];
 const Travel = travels.map((oneTravel, i) => {
   return (
-      <div> 
-        <img class='img' key={i} src={oneTravel.photo}  height="200px" width="300px" border="4  px"/>         
+      <div class='blockImage'> 
+        <img class='img' key={i} src={oneTravel.photo}  height="200px" width="300px" border="4px"/>         
         <div key={i}>{oneTravel.destination}</div>
         <div key={i}>{oneTravel.country} </div>
         <div key={i}>{oneTravel.distance} </div>
