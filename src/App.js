@@ -11,7 +11,13 @@ function App() {
         <h1>
           Where do I travel?
         </h1>
-        <Travel
+
+{/* Component that contain an array: */}
+        <Travel/>
+
+
+{/* Comoponent: */}
+        {/* <Travel
         photo="https://www.gannett-cdn.com/presto/2019/09/30/USAT/6fffafb3-aa62-4a01-ba7a-b7545d8b1cb4-GettyImages-1138175909.jpg?width=1080&quality=50"
         destination='Tenerife'
         country='Spain'
@@ -22,7 +28,9 @@ function App() {
          destination='Toscana'
          country='Italy'
          distance='1.781 Km'
-         />
+         /> */}
+        
+{/* A link */}
         {/* <a
           className="App-link"
           href="https://reactjs.org"
@@ -31,6 +39,7 @@ function App() {
         >
           Learn React
         </a> */}
+      
       </header>
     </div>
   );
