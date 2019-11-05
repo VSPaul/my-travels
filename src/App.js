@@ -1,17 +1,39 @@
 import React from 'react';
 import logo from './cocktail-svgrepo-com.svg';
+import logo2 from './logo192.png';
 import './App.css';
 import Travel from "./Travel";
+import Sitestate from './Sitestate';
+import {Button} from 'react-bootstrap';
 
-function App() {
+
+
+class App extends React.Component{
+  constructor(props){
+    super(props);
+  this.state={
+      black: false
+    }
+  }
+  handleClick = () => {
+    this.setState({ black: !this.state.black });
+  };
+  render(){
+    var black = this.state.black;
+    
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    <div className='App'>
+      <header className={black? 'black' : 'white'}>
+      <Button variant={black?'outline-warning':'outline-light'}  size="lg" onClick={this.handleClick}  >
+        {black? "Travel is taking a break":'Travel is working'}
+        </Button>  
+
+  <Sitestate on={black}/>
+
         <h1>
           Where do I travel?
         </h1>
-
+      <body>
 {/* Component that contain an array: */}
         <Travel/>
 
@@ -39,10 +61,11 @@ function App() {
         >
           Learn React
         </a> */}
-      
+      </body>
       </header>
     </div>
   );
+  }
 }
 
 export default App;

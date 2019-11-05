@@ -11,9 +11,10 @@ import React from "react";
 //       <h2>{distance}</h2>
 //     </figcaption>
 //   </figure>
-// );
+// );   
 
-// Component that contain an array:
+// Component that contain an array: 
+// Map Function
 
 const travels = [
   {
