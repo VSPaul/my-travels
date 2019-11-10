@@ -1,4 +1,4 @@
-import React from 'react';
+  import React from 'react';
 import logo from './cocktail-svgrepo-com.svg';
 import logo2 from './logo192.png';
 import './App.css';
@@ -25,7 +25,7 @@ class App extends React.Component{
     <div className='App'>
       <header className={black? 'black' : 'white'}>
       <Button variant={black?'outline-warning':'outline-light'}  size="lg" onClick={this.handleClick}  >
-        {black? "Travel is taking a break":'Travel is working'}
+        {black? "Travel is taking a break ":'Travel is working'}
         </Button>  
 
   <Sitestate on={black}/>
@@ -33,7 +33,7 @@ class App extends React.Component{
         <h1>
           Where do I travel?
         </h1>
-      <body>
+      <body> 
 {/* Component that contain an array: */}
         <Travel/>
 
